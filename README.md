@@ -2,7 +2,7 @@
 
 MOAT-GPNet, a Multimodal Omics Attention and Trustworthy Classification with a Gene-Pathway-guided network designed for accurate cancer classification.This repository contains the code of our paper MOAT-GPNet.
 
-[network.pdf](https://github.com/user-attachments/files/21933415/network.pdf)
+<img width="1507" height="813" alt="1755849471355" src="https://github.com/user-attachments/assets/7019a8fd-15e6-411e-9154-6873fecdcc60" />
 
 # Requirment
 
