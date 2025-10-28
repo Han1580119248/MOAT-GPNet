@@ -1,28 +1,0 @@
-nohup: 忽略输入
-Input Notebook:  train_test_CMFM.ipynb
-Output Notebook: output_CMFM.ipynb
-Executing:   0%|          | 0/37 [00:00<?, ?cell/s]Executing notebook with kernel: python3
-Executing:   3%|▎         | 1/37 [00:04<02:41,  4.48s/cell]Executing:  11%|█         | 4/37 [00:04<00:29,  1.13cell/s]Executing:  19%|█▉        | 7/37 [00:04<00:13,  2.30cell/s]Executing:  27%|██▋       | 10/37 [00:04<00:07,  3.63cell/s]Executing:  35%|███▌      | 13/37 [00:05<00:04,  5.41cell/s]Executing:  46%|████▌     | 17/37 [00:05<00:02,  8.35cell/s]Executing:  54%|█████▍    | 20/37 [00:05<00:01,  8.62cell/s]Executing:  65%|██████▍   | 24/37 [00:05<00:01, 12.15cell/s]Executing:  78%|███████▊  | 29/37 [00:05<00:00, 17.23cell/s]Executing:  92%|█████████▏| 34/37 [00:05<00:00, 21.68cell/s]Executing:  95%|█████████▍| 35/37 [00:20<00:00, 21.68cell/s]Kernel died while waiting for execute reply.
-Executing:  97%|█████████▋| 36/37 [07:55<00:40, 40.42s/cell]Executing:  97%|█████████▋| 36/37 [07:56<00:13, 13.24s/cell]
-Traceback (most recent call last):
-  File "/home/WZH/tools/anaconda3/envs/multimoding/lib/python3.9/site-packages/papermill/cli.py", line 235, in papermill
-    execute_notebook(
-  File "/home/WZH/tools/anaconda3/envs/multimoding/lib/python3.9/site-packages/papermill/execute.py", line 116, in execute_notebook
-    nb = papermill_engines.execute_notebook_with_engine(
-  File "/home/WZH/tools/anaconda3/envs/multimoding/lib/python3.9/site-packages/papermill/engines.py", line 48, in execute_notebook_with_engine
-    return self.get_engine(engine_name).execute_notebook(nb, kernel_name, **kwargs)
-  File "/home/WZH/tools/anaconda3/envs/multimoding/lib/python3.9/site-packages/papermill/engines.py", line 370, in execute_notebook
-    cls.execute_managed_notebook(nb_man, kernel_name, log_output=log_output, **kwargs)
-  File "/home/WZH/tools/anaconda3/envs/multimoding/lib/python3.9/site-packages/papermill/engines.py", line 442, in execute_managed_notebook
-    return PapermillNotebookClient(nb_man, **final_kwargs).execute()
-  File "/home/WZH/tools/anaconda3/envs/multimoding/lib/python3.9/site-packages/papermill/clientwrap.py", line 45, in execute
-    self.papermill_execute_cells()
-  File "/home/WZH/tools/anaconda3/envs/multimoding/lib/python3.9/site-packages/papermill/clientwrap.py", line 72, in papermill_execute_cells
-    self.execute_cell(cell, index)
-  File "/home/WZH/tools/anaconda3/envs/multimoding/lib/python3.9/site-packages/jupyter_core/utils/__init__.py", line 165, in wrapped
-    return loop.run_until_complete(inner)
-  File "/home/WZH/tools/anaconda3/envs/multimoding/lib/python3.9/asyncio/base_events.py", line 647, in run_until_complete
-    return future.result()
-  File "/home/WZH/tools/anaconda3/envs/multimoding/lib/python3.9/site-packages/nbclient/client.py", line 1009, in async_execute_cell
-    raise DeadKernelError("Kernel died") from None
-nbclient.exceptions.DeadKernelError: Kernel died
